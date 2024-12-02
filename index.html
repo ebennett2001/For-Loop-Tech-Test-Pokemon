@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokefun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="myH1" class="headings">Pok&eacute;mon Browser</h1>
+    <p id="myP1" class="headings">Thank you for using Pok&eacute;mon Browser!</p> 
+    <div id="pageCounter">Page Number: 1. (Mons 1 - 12)</div>
+
+    <div id="searching">
+        <input id="PokeName" type="text" placeholder="Search Pok&eacute;mon Name or Pok&eacute;dex number">
+        <button class="myBtns" id="searchBtn" onclick="fetchPokeInfoByName()">Search</button>
+        
+
+        <img src="" alt="PokeSprite" id="pokeSprite" style="display: none">
+    </div>
+
+    <button id="specBtn" class="specButton"></button>
+    
+    <div id="pokeBtns">
+        <button id="btn1" class="monBtns" data-pokenum="1"></button>
+        <button id="btn2" class="monBtns" data-pokenum="2"></button>
+        <button id="btn3" class="monBtns" data-pokenum="3"></button>
+        <button id="btn4" class="monBtns" data-pokenum="4"></button>
+        <button id="btn5" class="monBtns" data-pokenum="5"></button>
+        <button id="btn6" class="monBtns" data-pokenum="6"></button>
+        <button id="btn7" class="monBtns" data-pokenum="7"></button>
+        <button id="btn8" class="monBtns" data-pokenum="8"></button>
+        <button id="btn9" class="monBtns" data-pokenum="9"></button>
+        <button id="btn10" class="monBtns" data-pokenum="10"></button>
+        <button id="btn11" class="monBtns" data-pokenum="11"></button>
+        <button id="btn12" class="monBtns" data-pokenum="12"></button>  
+    </div>
+
+
+    <div id="frdBck">
+        <button class="myBtns" id="pageBack"> < </button>
+        <button class="myBtns" id="pageNext"> > </button>
+    </div>
+        
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+
+.headings{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#myH1{
+    font-size: 3em;
+}
+
+#pokeBtns{
+    display: grid;                          
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4, auto);   
+    gap: 10px;                              
+    width: 100%;                            
+    max-width: 400px;                       
+    margin: 0 auto;                         
+    padding: 10px;                          
+    box-sizing: border-box;  
+}
+
+.monBtns{
+    background-color: lightgray;           
+    border: none;                 
+    border-radius: 10px;                     
+    width: 300px;   
+    height: 100px;                         
+    aspect-ratio: 1;                        
+    display: flex;                         
+    align-items: left;                    
+    justify-content: left;                
+    font-size: 1rem;   
+}
+
+.monBtns:hover{
+    cursor: pointer;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searching{
+    text-align: left;
+    font-size: 1.2em;
+    display: flex;
+}
+
+.myBtns{
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+.myBtns:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 80%);
+}
+
+#frdBck{
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#PokeName{
+    width: 265px;
+}
+
+#specBtn{
+    position: relative;
+    left: 0;
+    height: 200px;
+    width: 500px;
+    margin-top: 10px;
+    font-size: 1em;
+};
